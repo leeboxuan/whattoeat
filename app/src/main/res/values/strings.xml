@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">What to Eat?</string>
+    <string name="save">Save</string>
+    <string name="suggestions">How suggestions do you have?</string>
+    <string name="buttonSubmit">Choose for me!</string>
+    <string name="textViewEnter">Enter your suggestions below</string>
+    <string name="famousFor"> Lets do it!</string>
+
+
+</resources>

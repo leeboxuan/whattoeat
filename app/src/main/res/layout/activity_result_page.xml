@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background ="@color/orange">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="283dp">
+
+        <ImageView
+            android:id="@+id/imageViewBorder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/border"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textViewChosen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/imageViewLb"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/lightbulb"
+            android:layout_marginRight="22dp"
+            android:layout_marginEnd="22dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:srcCompat="@drawable/lightbulb"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginStart="25dp" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonRefresh"
+        style="@android:style/Widget.Holo.Light.ImageButton"
+        android:layout_width="57dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+
+        android:elevation="0dp"
+        android:padding="20dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/refresh" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find out what they are famous for?"
+        android:fontFamily="sans-serif-condensed"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15px" />
+
+    <Button
+        android:id="@+id/buttonFamous"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/grey"
+        android:text="@string/famousFor"
+        android:textColor="@android:color/white"
+
+
+        />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="15px" />
+
+    <Button
+        android:id="@+id/buttonNearby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/grey"
+        android:drawableLeft="@drawable/map2"
+        android:drawablePadding="10dip"
+        android:paddingLeft="125dip"
+        android:paddingRight="125dip"
+        android:text=""
+        android:textColor="@android:color/white"
+
+
+        />
+</LinearLayout>
